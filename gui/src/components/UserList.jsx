@@ -4,7 +4,7 @@ import UserForm from './UserForm'
 import UserDetails from './UserDetails' // - Importam componenta nouă
 import './UserList.css'
 
-const SERVER = 'http://localhost:8080'
+const SERVER = 'https://ex4nextlabreact.onrender.com'
 
 function UserList (props) {
   const [users, setUsers] = useState([])
